@@ -11,9 +11,10 @@ REQUIRED = [
 with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
     setuptools.setup(
-        name="lambdata-SLightfoot",
+        name="lambdata_SLightfoot",
         version="0.1.1",
         author="SLightfoot",
+        author_email="GSLightfoot@gmail.com",
         description="Collection of DS functions for ease of access and use!",
         long_description=LONG_DESCRIPTION,
         long_description_content_type="text/markdown",
