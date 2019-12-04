@@ -18,8 +18,6 @@ class SlightyFuncs:
         # Print a quick view of each columns n/a count
         print(df.isna().sum())
 
-        return na_sums
-
     def dt_split(self, df, column):
         """ 
         When provided a single column of a DataFrame, dt_split will return
@@ -40,5 +38,5 @@ class SlightyFuncs:
         # Drop the now redundant column
         df.drop(columns=column)
 
-        return dt_split
+        return df
 
